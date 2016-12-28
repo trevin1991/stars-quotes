@@ -15,6 +15,12 @@ STARS_LIST.forEach((star) => {
 });
 
 listNode.addEventListener("click", onStarsListClick);
+listNode.addEventListener("transitionend", onTransitionEnd);
+
+function onTransitionEnd(e) {
+    if (e.propertyName !== "transform") return;
+    e.target.classList.remove("playing");
+}
 
 function onStarsListClick(e) {
     let node = e.target,
@@ -33,6 +39,7 @@ function onStarsListClick(e) {
 
     let starId = node.getAttribute("data-id");
     playStarQuote(starId);
+    node.classList.add("playing");
 }
 
 function playStarQuote(starId) {

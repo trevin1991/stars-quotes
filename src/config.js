@@ -62,5 +62,17 @@ module.exports =
           "text": "I hate men."
         }
       ]
+    },
+    {
+      "id": "s05",
+      "name": "Arnold Schwarzenegger",
+      "img": "assets/images/arnold-schwarzenegger.jpg",
+      "quotes": [
+          {
+            "src": "assets/sounds/schwarzenegger/fist.wav",
+            "movie": "Running Man",
+            "text": "But I hope you leave enough room for my fist, because I'm going to ram it into your stomach!"
+          }
+      ]
     }
   ];
