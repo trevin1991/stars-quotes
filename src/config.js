@@ -74,5 +74,22 @@ module.exports =
             "text": "But I hope you leave enough room for my fist, because I'm going to ram it into your stomach!"
           }
       ]
+    },
+    {
+        "id": "s06",
+        "name": "Marilyn Monroe",
+        "img": "assets/images/monroe.jpg",
+        "quotes": [
+            {
+                "src": "assets/sounds/monroe/born_yesterday.wav",
+                "movie": "Gentlemen Prefer Blondes",
+                "text": "You must think I was born yesterday."
+            },
+            {
+                "src": "assets/sounds/monroe/diamonds.wav",
+                "movie": "Gentelmen Prefer Blondes",
+                "text": "Diamonds are a girl's best friend!"
+            }
+        ]
     }
   ];
