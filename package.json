@@ -1,0 +1,14 @@
+{
+  "name": "starsquotes",
+  "version": "1.0.0",
+  "description": "stars quotes! pure classic",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "trofimovich.eugene.projects@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^1.14.0"
+  }
+}
